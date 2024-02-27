@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-27T10:04:43 IST" name="Suite" finished-at="2024-02-27T10:05:00 IST" duration-ms="17149">
+    <groups>
+    </groups>
+    <test started-at="2024-02-27T10:04:43 IST" name="Open Cart HomeTest" finished-at="2024-02-27T10:05:00 IST" duration-ms="17149">
+      <class name="tests.HomeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomeTest@402c4085]" started-at="2024-02-27T10:04:43 IST" name="setUp" finished-at="2024-02-27T10:04:56 IST" duration-ms="12904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageUrl()[pri:1, instance:tests.HomeTest@402c4085]" started-at="2024-02-27T10:04:56 IST" name="verifyHomePageUrl" finished-at="2024-02-27T10:04:56 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageUrl -->
+        <test-method signature="verifyHomePageTitle()[pri:2, instance:tests.HomeTest@402c4085]" started-at="2024-02-27T10:04:56 IST" name="verifyHomePageTitle" finished-at="2024-02-27T10:04:56 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="verifyHomePageHeader(java.lang.String)[pri:3, instance:tests.HomeTest@402c4085]" started-at="2024-02-27T10:04:57 IST" name="verifyHomePageHeader" data-provider="getDataProvider" finished-at="2024-02-27T10:04:58 IST" duration-ms="787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeader -->
+        <test-method signature="verifyHomePageHeader(java.lang.String)[pri:3, instance:tests.HomeTest@402c4085]" started-at="2024-02-27T10:04:58 IST" name="verifyHomePageHeader" data-provider="getDataProvider" finished-at="2024-02-27T10:04:59 IST" duration-ms="528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeader -->
+        <test-method signature="verifyHomePageHeader(java.lang.String)[pri:3, instance:tests.HomeTest@402c4085]" started-at="2024-02-27T10:04:59 IST" name="verifyHomePageHeader" data-provider="getDataProvider" finished-at="2024-02-27T10:04:59 IST" duration-ms="550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTest@402c4085]" started-at="2024-02-27T10:04:59 IST" name="tearDown" finished-at="2024-02-27T10:05:00 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomeTest -->
+    </test> <!-- Open Cart HomeTest -->
+    <test started-at="2024-02-27T10:04:43 IST" name="Open Cart Login Test" finished-at="2024-02-27T10:05:00 IST" duration-ms="17043">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="loadPropertyFile()[pri:0, instance:tests.LoginTest@4a8355dd]" started-at="2024-02-27T10:04:43 IST" name="loadPropertyFile" finished-at="2024-02-27T10:04:43 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropertyFile -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4a8355dd]" started-at="2024-02-27T10:04:43 IST" name="setUp" finished-at="2024-02-27T10:04:56 IST" duration-ms="12758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageNavigationTest()[pri:1, instance:tests.LoginTest@4a8355dd]" started-at="2024-02-27T10:04:56 IST" name="loginPageNavigationTest" finished-at="2024-02-27T10:04:56 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigationTest -->
+        <test-method signature="forgetPasswordLinkExitTest()[pri:2, instance:tests.LoginTest@4a8355dd]" started-at="2024-02-27T10:04:57 IST" name="forgetPasswordLinkExitTest" finished-at="2024-02-27T10:04:58 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetPasswordLinkExitTest -->
+        <test-method signature="appLoginTest()[pri:3, instance:tests.LoginTest@4a8355dd]" started-at="2024-02-27T10:04:58 IST" name="appLoginTest" finished-at="2024-02-27T10:04:59 IST" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4a8355dd]" started-at="2024-02-27T10:04:59 IST" name="tearDown" finished-at="2024-02-27T10:05:00 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Open Cart Login Test -->
+  </suite> <!-- Suite -->
+</testng-results>
