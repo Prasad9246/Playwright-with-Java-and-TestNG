@@ -14,10 +14,12 @@ Before running the tests, ensure you have the following dependencies installed:
 ## Installation
 
 1. Clone this repository:
-
+git clone [https://github.com/your-username/your-repo.git](https://github.com/Prasad9246/Playwright-with-Java-and-TestNG.git)
 
 2. Install dependencies:
-
+cd your-repo
+npm install playwright
+npm install @playwright/test
 
 ## Running the Tests
 
@@ -45,7 +47,7 @@ Screenshots are automatically captured for each test case, allowing you to visua
 
 ## Contributors
 
-- [Your Name](https://github.com/Prasad9246)
+- [Prasad Kamble](https://github.com/Prasad9246)
 
 ## License
 
