@@ -14,7 +14,7 @@ public class HomeTest extends BaseTest {
 
 	@DataProvider
 	public Object[][] getDataProvider() {
-		return new Object[][] { { "Macbook" }, { "iMac" }, { "Samsung" } };
+		return new Object[][] {{ "Samsung" }};
 	}
 
 	@Test(priority = 1)

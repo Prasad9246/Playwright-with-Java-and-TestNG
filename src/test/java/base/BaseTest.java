@@ -14,27 +14,26 @@ import pages.HomePage;
 import pages.LoginPage;
 
 public class BaseTest {
-	
+
 	PlaywrightFactory pf;
 	Page page;
 	public HomePage homePage;
 	public LoginPage loginPage;
-	
+
 	static Properties prop = null;
 
 	@BeforeSuite
 	public void loadPropertyFile() {
 		prop = ReadProperties.readPropertyFile();
 	}
-	
-	
+
 	@BeforeTest
 	public void setUp() {
 		pf = new PlaywrightFactory();
 		page = pf.initBrowser(prop.getProperty("browser"));
 		homePage = new HomePage(page);
 	}
-	
+
 	@AfterTest
 	public void tearDown() {
 		page.context().browser().close();

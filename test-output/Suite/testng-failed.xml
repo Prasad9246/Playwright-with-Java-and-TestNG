@@ -8,9 +8,9 @@
     <classes>
       <class name="tests.LoginTest">
         <methods>
+          <include name="forgetPasswordLinkExitTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="appLoginTest"/>
           <include name="loadPropertyFile"/>
         </methods>
       </class> <!-- tests.LoginTest -->
